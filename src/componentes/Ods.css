@@ -1,0 +1,119 @@
+/*Esta classe estiliza o elemento que contém o título da página.*/
+.titulo {
+    font-size: 30px;
+    padding: 15px;
+    margin: 15px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/*Esta classe estiliza a imagem usada no cabeçalho.*/
+imagem {
+    width: 20%;
+    height: auto;
+    margin-left: 10px;
+}
+
+/*Esta classe estiliza o conteúdo do cabeçalho da página.*/
+.header-content {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #010c18;
+    color: white;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    height: 25px;
+}
+
+/*Esta classe estiliza o container principal do cabeçalho*/
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Esta classe estiliza a seção que contém os botões de navegação.*/
+.button {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    margin: 10px;
+    display: flex;
+    gap: 5rem;
+    height: 100%;
+    margin-left: 300px;
+}
+
+/*Esta classe estiliza os botões de navegação*/
+.button li button {
+    margin-bottom: 10px;
+    border: 1px solid rgb(36, 0, 36);
+    padding: 10px 20px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/*Esta regra define o estilo do botão quando o mouse passa sobre ele, criando um efeito de hover.*/
+.button li button:hover {
+    background-color: #240024;
+}
+
+/* Define estilos para o elemento container */
+.container {
+    justify-content: center;
+    align-items: center;
+}
+
+/* Define estilos para as classe contexto */
+.contexto {
+    margin-top: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 790px;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Define estilos para as classes contexto */
+.ods15 {
+    padding: 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 790px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+/* Define estilos para a classe 'logoods' dentro do container */
+.container .logoods {
+    width: 50%;
+}
+
+/* Define estilos para a classe 'imagemods15' dentro do container (provavelmente para uma imagem) */
+
+.container .imagemods15 {
+    width: 20%;
+    height: auto;
+    float: left;
+
+}
+
+/*Esta classe estiliza os parágrafos de texto na página*/
+p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.3;
+    text-align: justify;
+}
